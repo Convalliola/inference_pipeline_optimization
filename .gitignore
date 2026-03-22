@@ -1,0 +1,6 @@
+app/__pycache__/
+app_onnx/__pycache__/
+app_batched/__pycache__/
+benchmark/__pycache__/
+scripts/__pycache__/
+models/

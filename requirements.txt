@@ -1,0 +1,11 @@
+sentence-transformers>=2.4.0
+transformers
+torch
+fastapi
+uvicorn
+pydantic
+requests
+psutil
+numpy
+onnx
+onnxruntime

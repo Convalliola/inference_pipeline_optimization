@@ -1,0 +1,73 @@
+[
+  {
+    "status": "ok",
+    "model_name": "sergeyzh/rubert-mini-frida",
+    "embedding_dim": 312,
+    "model_load_time_s": 1.159,
+    "scenario": "server_info"
+  },
+  {
+    "scenario": "single_request_latency",
+    "n_requests": 100,
+    "mean_ms": 4.84,
+    "median_ms": 4.67,
+    "p95_ms": 6.39,
+    "p99_ms": 11.46,
+    "min_ms": 4.12,
+    "max_ms": 11.46
+  },
+  {
+    "scenario": "batch_latency_bs1",
+    "batch_size": 1,
+    "n_requests": 100,
+    "mean_ms": 5.11,
+    "median_ms": 4.85,
+    "p95_ms": 7.31,
+    "p99_ms": 7.89,
+    "min_ms": 4.19,
+    "max_ms": 7.89
+  },
+  {
+    "scenario": "batch_latency_bs8",
+    "batch_size": 8,
+    "n_requests": 100,
+    "mean_ms": 16.59,
+    "median_ms": 16.13,
+    "p95_ms": 20.1,
+    "p99_ms": 23.18,
+    "min_ms": 14.86,
+    "max_ms": 23.18
+  },
+  {
+    "scenario": "batch_latency_bs32",
+    "batch_size": 32,
+    "n_requests": 100,
+    "mean_ms": 53.19,
+    "median_ms": 51.64,
+    "p95_ms": 63.98,
+    "p99_ms": 128.22,
+    "min_ms": 44.47,
+    "max_ms": 128.22
+  },
+  {
+    "scenario": "concurrent_throughput",
+    "n_workers": 10,
+    "total_requests": 500,
+    "wall_time_s": 1.31,
+    "throughput_rps": 381.3,
+    "mean_ms": 25.78,
+    "median_ms": 22.78,
+    "p95_ms": 47.46,
+    "p99_ms": 64.51
+  },
+  {
+    "scenario": "resource_usage",
+    "pid": 39194,
+    "cpu_percent_mean": 353.3,
+    "cpu_percent_max": 541.7,
+    "rss_mb_mean": 738.9,
+    "rss_mb_max": 739.4,
+    "vms_mb": 402609.8,
+    "n_samples": 3
+  }
+]
